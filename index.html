@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>NameCard</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+		<script src="airtable.browser.js"></script>
+		<script src="script.js" defer></script>
+	</head>
+
+	<body>
+		<h1>Wagwan</h1>
+		<div class="filter">
+			
+			<div class="menu" onclick="showCards('Design')">Design</div>
+			<div class="menu" onclick="showCards('Art')">Art</div>
+			<div class="menu" onclick="showCards('Illustration')">Illustration</div>
+			<div class="menu" onclick="showCards('Fashion')">Fashion</div>
+			<div class="menu" onclick="showCards('Photography')">Photography</div>
+			<div class="menu" onclick="showCards('Music')">Music</div>
+			<div class="menu" onclick="showCards('Others')">Others</div>
+		</div>
+		<div id="content"></div>
+		
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
+	</body>
+</html>
